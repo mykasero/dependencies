@@ -1,0 +1,111 @@
+[0.157s] Invoking command in '/home/ubuntu/test_ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ubuntu/test_ros_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ubuntu/test_ros_ws/install/v4l2_camera
+[0.821s] -- The C compiler identification is GNU 9.3.0
+[1.432s] -- The CXX compiler identification is GNU 9.3.0
+[1.494s] -- Check for working C compiler: /usr/bin/cc
+[2.323s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.337s] -- Detecting C compiler ABI info
+[3.221s] -- Detecting C compiler ABI info - done
+[3.336s] -- Detecting C compile features
+[3.341s] -- Detecting C compile features - done
+[3.366s] -- Check for working CXX compiler: /usr/bin/c++
+[4.305s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.318s] -- Detecting CXX compiler ABI info
+[5.249s] -- Detecting CXX compiler ABI info - done
+[5.376s] -- Detecting CXX compile features
+[5.383s] -- Detecting CXX compile features - done
+[5.465s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.857s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.860s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.705s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.949s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.093s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.421s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.858s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.038s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.094s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.107s] -- Looking for pthread.h
+[16.834s] -- Looking for pthread.h - found
+[16.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.567s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[18.570s] -- Looking for pthread_create in pthreads
+[20.199s] -- Looking for pthread_create in pthreads - not found
+[20.206s] -- Looking for pthread_create in pthread
+[22.162s] -- Looking for pthread_create in pthread - found
+[22.190s] -- Found Threads: TRUE  
+[26.174s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[27.775s] -- Found image_transport: 3.1.2 (/home/ubuntu/test_ros_ws/install/image_transport/share/image_transport/cmake)
+[32.166s] -- Found camera_info_manager: 3.1.2 (/home/ubuntu/test_ros_ws/install/camera_info_manager/share/camera_info_manager/cmake)
+[32.691s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[33.597s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[35.935s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.950s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/test_ros_ws/src/ros2_v4l2_camera/include>
+[35.951s] -- Configured cppcheck exclude dirs and/or files: 
+[36.145s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[36.146s] -- Configured cpplint exclude dirs and/or files: 
+[36.217s] -- Added test 'lint_cmake' to check CMake code style
+[36.429s] -- Added test 'uncrustify' to check C / C++ code style
+[36.433s] -- Configured uncrustify additional arguments: 
+[36.464s] -- Added test 'xmllint' to check XML markup files
+[36.718s] -- Configuring done
+[37.271s] -- Generating done
+[37.318s] -- Build files have been written to: /home/ubuntu/test_ros_ws/build/v4l2_camera
+[37.468s] Invoked command in '/home/ubuntu/test_ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/ubuntu/test_ros_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ubuntu/test_ros_ws/install/v4l2_camera
+[37.473s] Invoking command in '/home/ubuntu/test_ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ubuntu/test_ros_ws/build/v4l2_camera -- -j4 -l4
+[38.767s] [35m[1mScanning dependencies of target v4l2_camera[0m
+[40.234s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[108.221s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[135.149s] [ 42%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[138.769s] [ 42%] Built target v4l2_camera
+[138.912s] [35m[1mScanning dependencies of target v4l2_camera_compose_test[0m
+[139.493s] [ 57%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[191.241s] [ 71%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[194.481s] [ 71%] Built target v4l2_camera_compose_test
+[194.633s] [35m[1mScanning dependencies of target v4l2_camera_node[0m
+[195.201s] [ 85%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[217.773s] [100%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[219.723s] [100%] Built target v4l2_camera_node
+[219.860s] Invoked command in '/home/ubuntu/test_ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/ubuntu/test_ros_ws/build/v4l2_camera -- -j4 -l4
+[220.408s] Invoking command in '/home/ubuntu/test_ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ubuntu/test_ros_ws/build/v4l2_camera
+[220.531s] -- Install configuration: ""
+[220.533s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include
+[220.535s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera
+[220.537s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[220.539s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[220.541s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[220.543s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[220.544s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[220.546s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[220.548s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[220.554s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[220.593s] -- Set runtime path of "/home/ubuntu/test_ros_ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[220.595s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[220.603s] -- Set runtime path of "/home/ubuntu/test_ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[220.605s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[220.645s] -- Set runtime path of "/home/ubuntu/test_ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[220.647s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[220.650s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[220.655s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[220.659s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[220.662s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[220.665s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[220.668s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[220.671s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[220.674s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[220.676s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[220.679s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[220.682s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[220.685s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[220.689s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[220.693s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[220.697s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[220.700s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[220.703s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[220.707s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[220.710s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[220.713s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[220.716s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[220.718s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[220.722s] -- Installing: /home/ubuntu/test_ros_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[220.747s] Invoked command in '/home/ubuntu/test_ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager:/home/ubuntu/test_ros_ws/install/image_transport:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers:/home/ubuntu/test_ros_ws/install/vision_opencv:/home/ubuntu/test_ros_ws/install/v4l2_camera:/home/ubuntu/test_ros_ws/install/image_transport_plugins:/home/ubuntu/test_ros_ws/install/theora_image_transport:/home/ubuntu/test_ros_ws/install/image_common:/home/ubuntu/test_ros_ws/install/compressed_image_transport:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport:/home/ubuntu/test_ros_ws/install/image_geometry:/home/ubuntu/test_ros_ws/install/cv_bridge:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces:/home/ubuntu/test_ros_ws/install/opencv_tests:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/test_ros_ws/install/camera_info_manager/lib:/home/ubuntu/test_ros_ws/install/image_transport/lib:/home/ubuntu/test_ros_ws/install/camera_calibration_parsers/lib:/home/ubuntu/test_ros_ws/install/v4l2_camera/lib:/home/ubuntu/test_ros_ws/install/theora_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_image_transport/lib:/home/ubuntu/test_ros_ws/install/compressed_depth_image_transport/lib:/home/ubuntu/test_ros_ws/install/image_geometry/lib:/home/ubuntu/test_ros_ws/install/cv_bridge/lib:/home/ubuntu/robotics-unibs-project/rpi_ros_ws/install/alphabot2_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/ubuntu/test_ros_ws/build/v4l2_camera
